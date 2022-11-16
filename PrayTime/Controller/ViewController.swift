@@ -10,8 +10,12 @@ import CoreLocation
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var direction: UILabel!
+    
     @IBOutlet weak var weekdayLabel: UILabel!
     @IBOutlet weak var currentDate: UILabel!
+    @IBOutlet weak var cityNameLabel: UILabel!
+    
     
     @IBOutlet weak var fajrLabel: UILabel!
     @IBOutlet weak var sunriseLabel: UILabel!
@@ -28,6 +32,60 @@ class ViewController: UIViewController {
     @IBOutlet weak var view6: UIView!
     
     
+    func changePrayTimeView() {
+        view1.layer.cornerRadius = 20
+        view2.layer.cornerRadius = 20
+        view3.layer.cornerRadius = 20
+        view4.layer.cornerRadius = 20
+        view5.layer.cornerRadius = 20
+        view6.layer.cornerRadius = 20
+    }
+    
+    func updateInterface(prayTime: PrayTime) {
+        
+        DispatchQueue.main.async {
+            self.updateCityName()
+            
+            self.fajrLabel.text = "\(prayTime.fajr)"
+            self.sunriseLabel.text = "\(prayTime.sunrise)"
+            self.dhuhrLabel.text = "\(prayTime.dhuhr)"
+            self.asrLabel.text = "\(prayTime.asr)"
+            self.ishaLabel.text = "\(prayTime.isha)"
+            self.maghribLabel.text = "\(prayTime.maghrib)"
+            
+            self.weekdayLabel.text = prayTime.weekday
+            self.currentDate.text = prayTime.currentDate
+        }
+    }
+    
+    func updateInterface(currentCity: CurrentCity) {
+        DispatchQueue.main.async {
+            self.cityNameLabel.text = String(currentCity.city)
+            print(currentCity.city)
+        }
+    }
+    
+    func updateDirection(currentQibla: CurrentQiblaDirection) {
+        DispatchQueue.main.async {
+            self.direction.text = String(currentQibla.direction)
+            print("DDDDDDDDDdirection \(currentQibla.direction)")
+        }
+    }
+    
+    func updateCityName() {
+        networkPrayTimeManager.onCompletion2 = {[weak self] currentCity in
+            guard let self = self else {return}
+            self.updateInterface(currentCity: currentCity)
+            
+            self.networkPrayTimeManager.onCompletion3 = {[weak self] currentDirection in
+                guard let self = self else {return}
+                self.updateDirection(currentQibla: currentDirection)
+            }
+        }
+        
+    }
+    
+    //MARK: - _-_-_-_-_-_-_-_-_-_-
 
     var networkPrayTimeManager = NetworkPrayTimeManager()
     
@@ -45,62 +103,53 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //networkPrayTimeManager.delegate = self
         changePrayTimeView()
+        
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.requestLocation()
+        }
         
         networkPrayTimeManager.onCompletion = {[weak self] prayTime in
             guard let self = self else {return}
             self.updateInterface(prayTime: prayTime)
         }
         
-        if CLLocationManager.locationServicesEnabled() {
-            locationManager.requestLocation()
+        self.networkPrayTimeManager.onCompletion3 = {[weak self] currentDirection in
+            guard let self = self else {return}
+            self.updateDirection(currentQibla: currentDirection)
         }
-//        networkPrayTimeManager.fetchCurrentPrayTime(forCity: "Kaskelen")
+        
+        
+        
     }
 
     
     @IBAction func searchButtonPressed(_ sender: UIButton) {
-        self.presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert) {  [unowned self] cityName in
-            self.networkPrayTimeManager.fetchCurrentPrayTime(forRequestTime: .cityName(city: cityName))
-        }
-    }
-    
-    func updateInterface(prayTime: PrayTime) {
-        
-        DispatchQueue.main.async {
-            self.fajrLabel.text = "\(prayTime.fajr)"
-            self.sunriseLabel.text = "\(prayTime.sunrise)"
-            self.dhuhrLabel.text = "\(prayTime.dhuhr)"
-            self.asrLabel.text = "\(prayTime.asr)"
-            self.ishaLabel.text = "\(prayTime.isha)"
-            self.maghribLabel.text = "\(prayTime.maghrib)"
+        self.presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert) {  [unowned self] cityName, coutryName in
+            self.networkPrayTimeManager.fetchCurrentPrayTime(forRequestTime: .cityCountryName(city: cityName, country: coutryName))
             
-            self.weekdayLabel.text = prayTime.weekday
-            self.currentDate.text = prayTime.currentDate
-        }
+            networkPrayTimeManager.onCompletion = {[weak self] prayTime in
+                guard let self = self else {return}
+                self.updateInterface(prayTime: prayTime)
+                
+                self.networkPrayTimeManager.fetchCurrentPrayTime(forRequestTime: .currentCityName(latitude: prayTime.latitude, longitude: prayTime.longitude))
 
+                self.networkPrayTimeManager.fetchCurrentPrayTime(forRequestTime: .qiblaDirection(latitude: prayTime.latitude, longitude: prayTime.longitude))
+            }
+        }
+        
     }
     
-    func changePrayTimeView() {
-        view1.layer.cornerRadius = 20
-        view2.layer.cornerRadius = 20
-        view3.layer.cornerRadius = 20
-        view4.layer.cornerRadius = 20
-        view5.layer.cornerRadius = 20
-        view6.layer.cornerRadius = 20
-    }
     
+    @IBAction func myLocationPressed(_ sender: UIButton) {
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.requestLocation()
+            updateCityName()
+        }
+    }
+
 }
 
-//extension ViewController: PrayerTimeDelegate {
-//    func updateInterface(_: NetworkPrayTimeManager, with prayerTime: PrayTime) {
-//        <#code#>
-//    }
-//
-//
-//}
 
 
 //MARK: - CLLocationManagerDelegate
@@ -111,9 +160,15 @@ extension ViewController: CLLocationManagerDelegate {
         let latitude = location.coordinate.latitude
         let longitude = location.coordinate.longitude
         networkPrayTimeManager.fetchCurrentPrayTime(forRequestTime: .coordinate(latitude: latitude, longitude: longitude))
+        
+        networkPrayTimeManager.fetchCurrentPrayTime(forRequestTime: .currentCityName(latitude: latitude, longitude: longitude))
+        
+        networkPrayTimeManager.fetchCurrentPrayTime(forRequestTime: .qiblaDirection(latitude: latitude, longitude: longitude))
+        
+        updateCityName()
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print(error.localizedDescription)
+        print("ERROR")
     }
 }

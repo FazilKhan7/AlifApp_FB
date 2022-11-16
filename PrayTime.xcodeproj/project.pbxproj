@@ -16,8 +16,7 @@
 		938739822920BB6800C3CC06 /* NetworkPrayTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938739812920BB6800C3CC06 /* NetworkPrayTimeManager.swift */; };
 		938739852920BEAB00C3CC06 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938739842920BEAB00C3CC06 /* Constants.swift */; };
 		9387398A2920C6EB00C3CC06 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938739892920C6EB00C3CC06 /* ExtensionViewController.swift */; };
-		9387398C2920D93A00C3CC06 /* CurrentPrayTimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387398B2920D93A00C3CC06 /* CurrentPrayTimeData.swift */; };
-		9387398E2920F8F200C3CC06 /* PrayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387398D2920F8F200C3CC06 /* PrayTime.swift */; };
+		9387398E2920F8F200C3CC06 /* APIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387398D2920F8F200C3CC06 /* APIData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +31,7 @@
 		938739812920BB6800C3CC06 /* NetworkPrayTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkPrayTimeManager.swift; path = PrayTime/NetworkPrayTimeManager.swift; sourceTree = SOURCE_ROOT; };
 		938739842920BEAB00C3CC06 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		938739892920C6EB00C3CC06 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
-		9387398B2920D93A00C3CC06 /* CurrentPrayTimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPrayTimeData.swift; sourceTree = "<group>"; };
-		9387398D2920F8F200C3CC06 /* PrayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayTime.swift; sourceTree = "<group>"; };
+		9387398D2920F8F200C3CC06 /* APIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				938739812920BB6800C3CC06 /* NetworkPrayTimeManager.swift */,
-				9387398B2920D93A00C3CC06 /* CurrentPrayTimeData.swift */,
-				9387398D2920F8F200C3CC06 /* PrayTime.swift */,
+				9387398D2920F8F200C3CC06 /* APIData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,11 +190,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9387398C2920D93A00C3CC06 /* CurrentPrayTimeData.swift in Sources */,
 				938739852920BEAB00C3CC06 /* Constants.swift in Sources */,
 				9387396C2920AEA400C3CC06 /* ViewController.swift in Sources */,
 				9387398A2920C6EB00C3CC06 /* ExtensionViewController.swift in Sources */,
-				9387398E2920F8F200C3CC06 /* PrayTime.swift in Sources */,
+				9387398E2920F8F200C3CC06 /* APIData.swift in Sources */,
 				938739682920AEA400C3CC06 /* AppDelegate.swift in Sources */,
 				9387396A2920AEA400C3CC06 /* SceneDelegate.swift in Sources */,
 				938739822920BB6800C3CC06 /* NetworkPrayTimeManager.swift in Sources */,

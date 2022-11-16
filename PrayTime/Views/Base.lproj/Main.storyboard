@@ -25,7 +25,7 @@
                                 <color key="backgroundColor" systemColor="linkColor"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xGZ-wx-9qw">
-                                <rect key="frame" x="72" y="120.5" width="270" height="51.5"/>
+                                <rect key="frame" x="72" y="124" width="270" height="51.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maghrib" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQJ-Bv-NIR">
                                         <rect key="frame" x="0.0" y="0.0" width="154" height="51.5"/>
@@ -41,8 +41,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gVR-Nl-XUk">
-                                <rect key="frame" x="98" y="177" width="218" height="34"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gVR-Nl-XUk">
+                                <rect key="frame" x="146" y="180.5" width="122.5" height="34"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1p-C2-KWf">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="34"/>
@@ -52,11 +52,11 @@
                                             <color key="baseForegroundColor" red="0.88782250939999996" green="0.88782250939999996" blue="0.88782250939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="searchButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PyI-7E-sd2"/>
+                                            <action selector="myLocationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qht-Ks-13d"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almatinskaya oblast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4U-gt-fIU">
-                                        <rect key="frame" x="58" y="0.0" width="160" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kaskelen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4U-gt-fIU">
+                                        <rect key="frame" x="50" y="6.5" width="72.5" height="21.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -95,25 +95,42 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WpX-Zl-721">
-                                <rect key="frame" x="155.5" y="48" width="103.5" height="52.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WpX-Zl-721">
+                                <rect key="frame" x="20" y="48" width="374" height="56"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZqD-5C-ldW">
-                                        <rect key="frame" x="11.5" y="0.0" width="80.5" height="24"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLt-Xs-TjV">
-                                        <rect key="frame" x="0.0" y="32" width="103.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KrH-aa-AwD">
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZqD-5C-ldW">
+                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLt-Xs-TjV">
+                                                <rect key="frame" x="0.0" y="32" width="103.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGi-VR-iNr">
+                                        <rect key="frame" x="312" y="6" width="62" height="44"/>
+                                        <color key="tintColor" red="0.099970308349999995" green="0.1096817097" blue="0.10513798990000001" alpha="0.88139882619999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
+                                            <color key="baseForegroundColor" red="0.88782250939999996" green="0.88782250939999996" blue="0.88782250939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TfM-XQ-EoZ"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="f6g-AR-q6e">
-                                <rect key="frame" x="20" y="234.5" width="374" height="484"/>
+                                <rect key="frame" x="20" y="238" width="374" height="484"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3mb-3d-2mD">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="70.5"/>
@@ -432,11 +449,19 @@
                                     <constraint firstAttribute="width" constant="374" id="6lx-9r-Q66"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Direction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FqM-sf-3Ke">
+                                <rect key="frame" x="172" y="96" width="116" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                <color key="highlightedColor" red="0.018806250770000001" green="0.55148315429999994" blue="0.32016086580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="f5E-wV-X24"/>
                         <constraints>
                             <constraint firstItem="gVR-Nl-XUk" firstAttribute="top" secondItem="xGZ-wx-9qw" secondAttribute="bottom" constant="5" id="1Nv-Vz-7Ex"/>
                             <constraint firstItem="gVR-Nl-XUk" firstAttribute="centerX" secondItem="7jn-Lv-YhB" secondAttribute="centerX" id="5Kz-bR-vAr"/>
+                            <constraint firstItem="WpX-Zl-721" firstAttribute="leading" secondItem="f5E-wV-X24" secondAttribute="leading" constant="20" id="DvK-vI-1Ge"/>
                             <constraint firstItem="WpX-Zl-721" firstAttribute="centerX" secondItem="7jn-Lv-YhB" secondAttribute="centerX" id="ELJ-Ez-bHK"/>
                             <constraint firstItem="f6g-AR-q6e" firstAttribute="top" secondItem="gVR-Nl-XUk" secondAttribute="bottom" constant="23.5" id="GBs-oJ-SFT"/>
                             <constraint firstItem="f5E-wV-X24" firstAttribute="trailing" secondItem="1bk-j3-fmZ" secondAttribute="trailing" constant="10" id="Iaz-jc-Xpr"/>
@@ -446,13 +471,16 @@
                             <constraint firstItem="f6g-AR-q6e" firstAttribute="leading" secondItem="f5E-wV-X24" secondAttribute="leading" constant="20" id="hAq-cO-pcq"/>
                             <constraint firstItem="xGZ-wx-9qw" firstAttribute="top" secondItem="WpX-Zl-721" secondAttribute="bottom" constant="20" id="iou-Lz-KUH"/>
                             <constraint firstItem="1bk-j3-fmZ" firstAttribute="leading" secondItem="f5E-wV-X24" secondAttribute="leading" constant="10" id="jks-EV-WDA"/>
+                            <constraint firstItem="f5E-wV-X24" firstAttribute="trailing" secondItem="WpX-Zl-721" secondAttribute="trailing" constant="20" id="mK7-fc-6oD"/>
                             <constraint firstItem="1bk-j3-fmZ" firstAttribute="bottom" secondItem="f5E-wV-X24" secondAttribute="bottom" id="yBD-yd-5FJ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="asrLabel" destination="z2L-42-fqP" id="btL-F2-w91"/>
+                        <outlet property="cityNameLabel" destination="t4U-gt-fIU" id="fvV-eJ-CY1"/>
                         <outlet property="currentDate" destination="aLt-Xs-TjV" id="5F7-ax-acI"/>
                         <outlet property="dhuhrLabel" destination="zbC-C0-0u7" id="ilT-ch-687"/>
+                        <outlet property="direction" destination="FqM-sf-3Ke" id="yMo-Z2-Jof"/>
                         <outlet property="fajrLabel" destination="5L5-Wz-Zd5" id="laJ-Cj-bi1"/>
                         <outlet property="ishaLabel" destination="iox-Zr-Sth" id="gdZ-oy-BIP"/>
                         <outlet property="maghribLabel" destination="ymZ-jv-Xic" id="fC4-mP-4nM"/>
@@ -476,6 +504,7 @@
         <image name="ellipsis.circle" catalog="system" width="128" height="123"/>
         <image name="location.circle" catalog="system" width="128" height="123"/>
         <image name="location.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="moon.stars" catalog="system" width="125" height="128"/>
         <image name="mosque" width="1080" height="2340"/>
         <image name="sun.and.horizon" catalog="system" width="128" height="79"/>
@@ -505,6 +534,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
