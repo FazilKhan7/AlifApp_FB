@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OverLayerPopUp" customModule="PrayTime" customModuleProvider="target">
+            <connections>
+                <outlet property="backView" destination="ign-e4-bkL" id="nVk-M1-gQJ"/>
+                <outlet property="contentView" destination="8jf-1k-qc6" id="ZYZ-lY-mQu"/>
+                <outlet property="letter" destination="kyx-8W-f2p" id="50r-wN-QB9"/>
+                <outlet property="pronunciation" destination="MVK-Ik-GNy" id="bc0-wU-KAz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ign-e4-bkL" userLabel="backView">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8jf-1k-qc6" userLabel="contentView">
+                    <rect key="frame" x="76.666666666666686" y="306" width="240" height="240"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="rfc-bL-Hxx">
+                            <rect key="frame" x="64.333333333333329" y="34.333333333333314" width="110.99999999999999" height="171.66666666666666"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-Rt-JO1">
+                                    <rect key="frame" x="0.0" y="0.0" width="111" height="171.66666666666666"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ص" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyx-8W-f2p">
+                                            <rect key="frame" x="0.0" y="0.0" width="111" height="116.66666666666667"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="100"/>
+                                            <color key="textColor" name="alphaColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVK-Ik-GNy">
+                                            <rect key="frame" x="31.333333333333346" y="134.66666666666669" width="48.333333333333343" height="37"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                            <color key="textColor" name="alphaColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" name="alphabetBch"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="240" id="KaD-yn-FM1"/>
+                        <constraint firstItem="rfc-bL-Hxx" firstAttribute="centerX" secondItem="8jf-1k-qc6" secondAttribute="centerX" id="SGa-h3-gLr"/>
+                        <constraint firstItem="rfc-bL-Hxx" firstAttribute="centerY" secondItem="8jf-1k-qc6" secondAttribute="centerY" id="cJL-KN-bcF"/>
+                        <constraint firstAttribute="width" constant="240" id="mnz-vJ-AU4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+            <constraints>
+                <constraint firstItem="ign-e4-bkL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2mT-AK-Wdp"/>
+                <constraint firstItem="ign-e4-bkL" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="EkL-5x-sdy"/>
+                <constraint firstItem="ign-e4-bkL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Sgh-54-MgO"/>
+                <constraint firstAttribute="bottom" secondItem="ign-e4-bkL" secondAttribute="bottom" id="WtM-4i-dW1"/>
+                <constraint firstItem="8jf-1k-qc6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="pfb-Yr-7PV"/>
+                <constraint firstItem="8jf-1k-qc6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="s8q-He-aX4"/>
+            </constraints>
+            <point key="canvasLocation" x="-286.25954198473283" y="10.563380281690142"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="alphaColor">
+            <color red="0.018999999389052391" green="0.55099999904632568" blue="0.31999999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="alphabetBch">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

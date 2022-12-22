@@ -28,7 +28,7 @@ struct DateClass: Codable {
     let gregorian: Gregorian
 }
 
-// MARK: - Gregorian
+// MARK: - Gregorian/Users/bakhtiyarovfozilkhon/Desktop/Development/Alif_App/PrayTime/NetworkPrayTimeManager.swift
 struct Gregorian: Codable {
     let date, format, day: String
     let weekday: Weekday

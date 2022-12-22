@@ -7,9 +7,6 @@
 
 import Foundation
 import CoreLocation
-//protocol PrayerTimeDelegate: class {
-//    func updateInterface(_: NetworkPrayTimeManager, with prayerTime: PrayTime)
-//}
 
 class NetworkPrayTimeManager {
     
@@ -28,16 +25,17 @@ class NetworkPrayTimeManager {
     }
     
     
-//    weak var delegate: PrayerTimeDelegate?
+    // weak var delegate: PrayerTimeDelegate?
     var onCompletion: ((PrayTime) -> Void)?
     var onCompletion2: ((CurrentCity) -> Void)?
     var onCompletion3: ((CurrentQiblaDirection) -> Void)?
+    var strArray = [String]()
     
     
     func fetchCurrentPrayTime(forRequestTime requestType: RequestType){
         var urlString = ""
         var type: APItype
-
+        
         switch requestType {
         case .cityCountryName(let country, let city):
             urlString = "https://api.aladhan.com/v1/timingsByCity?city=\(city)&country=\(country)&method=2&apikey=\(apiKey)"
@@ -60,14 +58,13 @@ class NetworkPrayTimeManager {
         
         performRequest(withUrlString: urlString, type: type)
     }
-
+    
     
     fileprivate func performRequest(withUrlString urlString: String, type: APItype) {
         guard let url = URL(string: urlString) else { return }
         let session = URLSession(configuration: .default)
         let task = session.dataTask(with: url) { data, response, error in
             if let data = data {
-                
                 switch type {
                 case .cityCountryName:
                     if let currentData = self.parseJSON1(withdata: data){
@@ -98,13 +95,10 @@ class NetworkPrayTimeManager {
                     }
                     break
                 }
-                
             }
         }
-        
         task.resume()
     }
-    
     
     fileprivate func parseJSON1(withdata data: Data) -> PrayTime? {
         let decoder = JSONDecoder()
@@ -112,6 +106,11 @@ class NetworkPrayTimeManager {
         do {
             let currentPrayTimeData = try decoder.decode(CurrentPrayTimeData.self, from: data)
             guard let prayTime = PrayTime(currentPrayTime: currentPrayTimeData) else { return nil }
+            strArray.append(prayTime.fajr)
+            strArray.append(prayTime.dhuhr)
+            strArray.append(prayTime.asr)
+            strArray.append(prayTime.isha)
+            strArray.append(prayTime.maghrib)
             return prayTime
         } catch let error as NSError {
             print(error.localizedDescription)
@@ -144,6 +143,4 @@ class NetworkPrayTimeManager {
         }
         return nil
     }
-    
-    
 }

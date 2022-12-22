@@ -7,6 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		573DCDDE2946FE29006D6306 /* DhikrTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DCDDD2946FE29006D6306 /* DhikrTableViewController.swift */; };
+		573DCDE229471B50006D6306 /* DhikrCellsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DCDE129471B50006D6306 /* DhikrCellsTableViewCell.swift */; };
+		573DCDE429473278006D6306 /* DhikrModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DCDE329473278006D6306 /* DhikrModel.swift */; };
+		573DCDE629478489006D6306 /* DetailsDhikrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DCDE529478489006D6306 /* DetailsDhikrViewController.swift */; };
+		5754A59A294C4ACD009A1164 /* QiblaDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5754A599294C4ACD009A1164 /* QiblaDirectionViewController.swift */; };
+		57606F12295248A500016838 /* azan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57606F11295248A500016838 /* azan.mp3 */; };
+		57801289294B4FBD0077DC93 /* AlphabetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57801288294B4FBD0077DC93 /* AlphabetViewController.swift */; };
+		5780128C294B50430077DC93 /* OverLayerPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780128A294B50430077DC93 /* OverLayerPopUp.swift */; };
+		5780128D294B50430077DC93 /* OverLayerPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5780128B294B50430077DC93 /* OverLayerPopUp.xib */; };
+		578012AF294B51770077DC93 /* Fa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57801293294B51770077DC93 /* Fa.mp3 */; };
+		578012B0294B51770077DC93 /* Daal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57801294294B51770077DC93 /* Daal.mp3 */; };
+		578012B1294B51770077DC93 /* Raa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57801295294B51770077DC93 /* Raa.mp3 */; };
+		578012B2294B51770077DC93 /* Mim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57801296294B51770077DC93 /* Mim.mp3 */; };
+		578012B3294B51770077DC93 /* Qaf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57801297294B51770077DC93 /* Qaf.mp3 */; };
+		578012B4294B51770077DC93 /* Thaa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57801298294B51770077DC93 /* Thaa.mp3 */; };
+		578012B5294B51770077DC93 /* Shin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57801299294B51770077DC93 /* Shin.mp3 */; };
+		578012B6294B51770077DC93 /* Kaf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5780129A294B51770077DC93 /* Kaf.mp3 */; };
+		578012B7294B51770077DC93 /* Yaå.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5780129B294B51770077DC93 /* Yaå.mp3 */; };
+		578012B8294B51770077DC93 /* Sad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5780129C294B51770077DC93 /* Sad.mp3 */; };
+		578012B9294B51770077DC93 /* Ain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5780129D294B51770077DC93 /* Ain.mp3 */; };
+		578012BA294B51770077DC93 /* Dhal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5780129E294B51770077DC93 /* Dhal.mp3 */; };
+		578012BB294B51770077DC93 /* Jiim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5780129F294B51770077DC93 /* Jiim.mp3 */; };
+		578012BC294B51770077DC93 /* Sin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A0294B51770077DC93 /* Sin.mp3 */; };
+		578012BD294B51770077DC93 /* Ghain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A1294B51770077DC93 /* Ghain.mp3 */; };
+		578012BE294B51770077DC93 /* Alif.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A2294B51770077DC93 /* Alif.mp3 */; };
+		578012BF294B51770077DC93 /* Lam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A3294B51770077DC93 /* Lam.mp3 */; };
+		578012C0294B51770077DC93 /* Baa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A4294B51770077DC93 /* Baa.mp3 */; };
+		578012C1294B51770077DC93 /* Taa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A5294B51770077DC93 /* Taa.mp3 */; };
+		578012C2294B51770077DC93 /* Waw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A6294B51770077DC93 /* Waw.mp3 */; };
+		578012C3294B51770077DC93 /* Haa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A7294B51770077DC93 /* Haa.mp3 */; };
+		578012C4294B51770077DC93 /* Xaa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A8294B51770077DC93 /* Xaa.mp3 */; };
+		578012C5294B51770077DC93 /* Za.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012A9294B51770077DC93 /* Za.mp3 */; };
+		578012C6294B51770077DC93 /* Haå.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012AA294B51770077DC93 /* Haå.mp3 */; };
+		578012C7294B51770077DC93 /* Dha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012AB294B51770077DC93 /* Dha.mp3 */; };
+		578012C8294B51770077DC93 /* Nun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012AC294B51770077DC93 /* Nun.mp3 */; };
+		578012C9294B51770077DC93 /* Ta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012AD294B51770077DC93 /* Ta.mp3 */; };
+		578012CA294B51770077DC93 /* Dad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578012AE294B51770077DC93 /* Dad.mp3 */; };
+		5782660029531EB50077FC79 /* LanguagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578265FF29531EB50077FC79 /* LanguagesTableViewController.swift */; };
+		578266092953262A0077FC79 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5782660B2953262A0077FC79 /* Localizable.strings */; };
+		5782661229537D490077FC79 /* CustomSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782660D29537D490077FC79 /* CustomSettingsTableViewCell.swift */; };
+		5782661329537D490077FC79 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782660E29537D490077FC79 /* AboutUsViewController.swift */; };
+		5782661429537D490077FC79 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782660F29537D490077FC79 /* SettingsTableViewController.swift */; };
+		5782661529537D490077FC79 /* BckgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782661029537D490077FC79 /* BckgViewController.swift */; };
+		5782661629537D490077FC79 /* Constantsback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782661129537D490077FC79 /* Constantsback.swift */; };
+		5782661829537EBF0077FC79 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782661729537EBF0077FC79 /* SettingsModel.swift */; };
+		5782661B2953803B0077FC79 /* Settings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 578266192953803B0077FC79 /* Settings.xcdatamodeld */; };
+		57EC9AB62950D3FD00FE6A68 /* 8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AAC2950D3FD00FE6A68 /* 8.m4a */; };
+		57EC9AB72950D3FD00FE6A68 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AAD2950D3FD00FE6A68 /* 4.m4a */; };
+		57EC9AB82950D3FD00FE6A68 /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AAE2950D3FD00FE6A68 /* 6.m4a */; };
+		57EC9AB92950D3FD00FE6A68 /* 10.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AAF2950D3FD00FE6A68 /* 10.m4a */; };
+		57EC9ABB2950D3FD00FE6A68 /* 9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AB12950D3FD00FE6A68 /* 9.m4a */; };
+		57EC9ABD2950D3FD00FE6A68 /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AB32950D3FD00FE6A68 /* 3.m4a */; };
+		57EC9ABE2950D3FD00FE6A68 /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AB42950D3FD00FE6A68 /* 5.m4a */; };
+		57EC9ABF2950D3FD00FE6A68 /* 7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AB52950D3FD00FE6A68 /* 7.m4a */; };
+		57EC9AC42950D78C00FE6A68 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AC22950D78C00FE6A68 /* 2.m4a */; };
+		57EC9AC52950D78C00FE6A68 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57EC9AC32950D78C00FE6A68 /* 1.m4a */; };
+		57EC9ACA2950F84000FE6A68 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EC9AC62950F84000FE6A68 /* MainTableViewController.swift */; };
+		57EC9ACB2950F84000FE6A68 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EC9AC72950F84000FE6A68 /* Model.swift */; };
+		57EC9ACC2950F84000FE6A68 /* EventDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EC9AC82950F84000FE6A68 /* EventDescriptionViewController.swift */; };
+		57EC9ACD2950F84000FE6A68 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EC9AC92950F84000FE6A68 /* CustomTableViewCell.swift */; };
 		938739682920AEA400C3CC06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938739672920AEA400C3CC06 /* AppDelegate.swift */; };
 		9387396A2920AEA400C3CC06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938739692920AEA400C3CC06 /* SceneDelegate.swift */; };
 		9387396C2920AEA400C3CC06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387396B2920AEA400C3CC06 /* ViewController.swift */; };
@@ -20,6 +80,74 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		573DCDDD2946FE29006D6306 /* DhikrTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhikrTableViewController.swift; sourceTree = "<group>"; };
+		573DCDE129471B50006D6306 /* DhikrCellsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhikrCellsTableViewCell.swift; sourceTree = "<group>"; };
+		573DCDE329473278006D6306 /* DhikrModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DhikrModel.swift; path = ../../../DhikrModel.swift; sourceTree = "<group>"; };
+		573DCDE529478489006D6306 /* DetailsDhikrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDhikrViewController.swift; sourceTree = "<group>"; };
+		5754A599294C4ACD009A1164 /* QiblaDirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaDirectionViewController.swift; sourceTree = "<group>"; };
+		57606F11295248A500016838 /* azan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = azan.mp3; path = ../../../azan.mp3; sourceTree = "<group>"; };
+		57801288294B4FBD0077DC93 /* AlphabetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlphabetViewController.swift; path = ../../../../../Downloads/Alif_App_2/PrayTime/Controller/AlphabetViewController.swift; sourceTree = "<group>"; };
+		5780128A294B50430077DC93 /* OverLayerPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverLayerPopUp.swift; path = ../../../../../Downloads/Alif_App_2/PrayTime/OverLayerPopUp/OverLayerPopUp.swift; sourceTree = "<group>"; };
+		5780128B294B50430077DC93 /* OverLayerPopUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OverLayerPopUp.xib; path = ../../../../../Downloads/Alif_App_2/PrayTime/OverLayerPopUp/OverLayerPopUp.xib; sourceTree = "<group>"; };
+		5780128F294B504B0077DC93 /* OverLayerPopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverLayerPopUp.xib; sourceTree = "<group>"; };
+		57801290294B504B0077DC93 /* OverLayerPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverLayerPopUp.swift; sourceTree = "<group>"; };
+		57801293294B51770077DC93 /* Fa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fa.mp3; path = "../../../../Downloads/Audio Alphabet/Fa.mp3"; sourceTree = "<group>"; };
+		57801294294B51770077DC93 /* Daal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Daal.mp3; path = "../../../../Downloads/Audio Alphabet/Daal.mp3"; sourceTree = "<group>"; };
+		57801295294B51770077DC93 /* Raa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Raa.mp3; path = "../../../../Downloads/Audio Alphabet/Raa.mp3"; sourceTree = "<group>"; };
+		57801296294B51770077DC93 /* Mim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mim.mp3; path = "../../../../Downloads/Audio Alphabet/Mim.mp3"; sourceTree = "<group>"; };
+		57801297294B51770077DC93 /* Qaf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Qaf.mp3; path = "../../../../Downloads/Audio Alphabet/Qaf.mp3"; sourceTree = "<group>"; };
+		57801298294B51770077DC93 /* Thaa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Thaa.mp3; path = "../../../../Downloads/Audio Alphabet/Thaa.mp3"; sourceTree = "<group>"; };
+		57801299294B51770077DC93 /* Shin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Shin.mp3; path = "../../../../Downloads/Audio Alphabet/Shin.mp3"; sourceTree = "<group>"; };
+		5780129A294B51770077DC93 /* Kaf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Kaf.mp3; path = "../../../../Downloads/Audio Alphabet/Kaf.mp3"; sourceTree = "<group>"; };
+		5780129B294B51770077DC93 /* Yaå.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Yaå.mp3"; path = "../../../../Downloads/Audio Alphabet/Yaå.mp3"; sourceTree = "<group>"; };
+		5780129C294B51770077DC93 /* Sad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sad.mp3; path = "../../../../Downloads/Audio Alphabet/Sad.mp3"; sourceTree = "<group>"; };
+		5780129D294B51770077DC93 /* Ain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ain.mp3; path = "../../../../Downloads/Audio Alphabet/Ain.mp3"; sourceTree = "<group>"; };
+		5780129E294B51770077DC93 /* Dhal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dhal.mp3; path = "../../../../Downloads/Audio Alphabet/Dhal.mp3"; sourceTree = "<group>"; };
+		5780129F294B51770077DC93 /* Jiim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Jiim.mp3; path = "../../../../Downloads/Audio Alphabet/Jiim.mp3"; sourceTree = "<group>"; };
+		578012A0294B51770077DC93 /* Sin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sin.mp3; path = "../../../../Downloads/Audio Alphabet/Sin.mp3"; sourceTree = "<group>"; };
+		578012A1294B51770077DC93 /* Ghain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ghain.mp3; path = "../../../../Downloads/Audio Alphabet/Ghain.mp3"; sourceTree = "<group>"; };
+		578012A2294B51770077DC93 /* Alif.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alif.mp3; path = "../../../../Downloads/Audio Alphabet/Alif.mp3"; sourceTree = "<group>"; };
+		578012A3294B51770077DC93 /* Lam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lam.mp3; path = "../../../../Downloads/Audio Alphabet/Lam.mp3"; sourceTree = "<group>"; };
+		578012A4294B51770077DC93 /* Baa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Baa.mp3; path = "../../../../Downloads/Audio Alphabet/Baa.mp3"; sourceTree = "<group>"; };
+		578012A5294B51770077DC93 /* Taa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Taa.mp3; path = "../../../../Downloads/Audio Alphabet/Taa.mp3"; sourceTree = "<group>"; };
+		578012A6294B51770077DC93 /* Waw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Waw.mp3; path = "../../../../Downloads/Audio Alphabet/Waw.mp3"; sourceTree = "<group>"; };
+		578012A7294B51770077DC93 /* Haa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Haa.mp3; path = "../../../../Downloads/Audio Alphabet/Haa.mp3"; sourceTree = "<group>"; };
+		578012A8294B51770077DC93 /* Xaa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Xaa.mp3; path = "../../../../Downloads/Audio Alphabet/Xaa.mp3"; sourceTree = "<group>"; };
+		578012A9294B51770077DC93 /* Za.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Za.mp3; path = "../../../../Downloads/Audio Alphabet/Za.mp3"; sourceTree = "<group>"; };
+		578012AA294B51770077DC93 /* Haå.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Haå.mp3"; path = "../../../../Downloads/Audio Alphabet/Haå.mp3"; sourceTree = "<group>"; };
+		578012AB294B51770077DC93 /* Dha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dha.mp3; path = "../../../../Downloads/Audio Alphabet/Dha.mp3"; sourceTree = "<group>"; };
+		578012AC294B51770077DC93 /* Nun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Nun.mp3; path = "../../../../Downloads/Audio Alphabet/Nun.mp3"; sourceTree = "<group>"; };
+		578012AD294B51770077DC93 /* Ta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ta.mp3; path = "../../../../Downloads/Audio Alphabet/Ta.mp3"; sourceTree = "<group>"; };
+		578012AE294B51770077DC93 /* Dad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dad.mp3; path = "../../../../Downloads/Audio Alphabet/Dad.mp3"; sourceTree = "<group>"; };
+		578265FF29531EB50077FC79 /* LanguagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesTableViewController.swift; sourceTree = "<group>"; };
+		57826601295322F40077FC79 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		57826602295322F50077FC79 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		578266042953238E0077FC79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		57826606295323B20077FC79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5782660A2953262A0077FC79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5782660C295326360077FC79 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5782660D29537D490077FC79 /* CustomSettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSettingsTableViewCell.swift; path = "../../../../../Downloads/Settings 4/Settings/CustomSettingsTableViewCell.swift"; sourceTree = "<group>"; };
+		5782660E29537D490077FC79 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutUsViewController.swift; path = "../../../../../Downloads/Settings 4/Settings/AboutUsViewController.swift"; sourceTree = "<group>"; };
+		5782660F29537D490077FC79 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = "../../../../../Downloads/Settings 4/Settings/SettingsTableViewController.swift"; sourceTree = "<group>"; };
+		5782661029537D490077FC79 /* BckgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BckgViewController.swift; path = "../../../../../Downloads/Settings 4/Settings/BckgViewController.swift"; sourceTree = "<group>"; };
+		5782661129537D490077FC79 /* Constantsback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constantsback.swift; path = "../../../../../Downloads/Settings 4/Settings/Constantsback.swift"; sourceTree = "<group>"; };
+		5782661729537EBF0077FC79 /* SettingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsModel.swift; path = "../../../../../Downloads/Settings 4/Settings/SettingsModel.swift"; sourceTree = "<group>"; };
+		5782661A2953803B0077FC79 /* Settings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Settings.xcdatamodel; sourceTree = "<group>"; };
+		5782661D295380770077FC79 /* Settings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Settings.xcdatamodel; sourceTree = "<group>"; };
+		57EC9AAC2950D3FD00FE6A68 /* 8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 8.m4a; path = ../../../8.m4a; sourceTree = "<group>"; };
+		57EC9AAD2950D3FD00FE6A68 /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4.m4a; path = ../../../4.m4a; sourceTree = "<group>"; };
+		57EC9AAE2950D3FD00FE6A68 /* 6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 6.m4a; path = ../../../6.m4a; sourceTree = "<group>"; };
+		57EC9AAF2950D3FD00FE6A68 /* 10.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 10.m4a; path = ../../../10.m4a; sourceTree = "<group>"; };
+		57EC9AB12950D3FD00FE6A68 /* 9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 9.m4a; path = ../../../9.m4a; sourceTree = "<group>"; };
+		57EC9AB32950D3FD00FE6A68 /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 3.m4a; path = ../../../3.m4a; sourceTree = "<group>"; };
+		57EC9AB42950D3FD00FE6A68 /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 5.m4a; path = ../../../5.m4a; sourceTree = "<group>"; };
+		57EC9AB52950D3FD00FE6A68 /* 7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 7.m4a; path = ../../../7.m4a; sourceTree = "<group>"; };
+		57EC9AC22950D78C00FE6A68 /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2.m4a; path = ../../../2.m4a; sourceTree = "<group>"; };
+		57EC9AC32950D78C00FE6A68 /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1.m4a; path = ../../../1.m4a; sourceTree = "<group>"; };
+		57EC9AC62950F84000FE6A68 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = "../../../../../Downloads/TVAPP 3/TVAPP/MainTableViewController.swift"; sourceTree = "<group>"; };
+		57EC9AC72950F84000FE6A68 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = "../../../../../Downloads/TVAPP 3/TVAPP/Model.swift"; sourceTree = "<group>"; };
+		57EC9AC82950F84000FE6A68 /* EventDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventDescriptionViewController.swift; path = "../../../../../Downloads/TVAPP 3/TVAPP/EventDescriptionViewController.swift"; sourceTree = "<group>"; };
+		57EC9AC92950F84000FE6A68 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = "../../../../../Downloads/TVAPP 3/TVAPP/CustomTableViewCell.swift"; sourceTree = "<group>"; };
 		938739642920AEA400C3CC06 /* PrayTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938739672920AEA400C3CC06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938739692920AEA400C3CC06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,9 +173,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5780128E294B504A0077DC93 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				57801290294B504B0077DC93 /* OverLayerPopUp.swift */,
+				5780128F294B504B0077DC93 /* OverLayerPopUp.xib */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		9387395B2920AEA400C3CC06 = {
 			isa = PBXGroup;
 			children = (
+				5782660B2953262A0077FC79 /* Localizable.strings */,
 				938739662920AEA400C3CC06 /* PrayTime */,
 				938739652920AEA400C3CC06 /* Products */,
 			);
@@ -71,6 +209,45 @@
 				938739832920BE9A00C3CC06 /* Support files */,
 				938739702920AEA800C3CC06 /* Assets.xcassets */,
 				938739752920AEA800C3CC06 /* Info.plist */,
+				57606F11295248A500016838 /* azan.mp3 */,
+				57EC9AC32950D78C00FE6A68 /* 1.m4a */,
+				57EC9AC22950D78C00FE6A68 /* 2.m4a */,
+				57EC9AB32950D3FD00FE6A68 /* 3.m4a */,
+				57EC9AAD2950D3FD00FE6A68 /* 4.m4a */,
+				57EC9AB42950D3FD00FE6A68 /* 5.m4a */,
+				57EC9AAE2950D3FD00FE6A68 /* 6.m4a */,
+				57EC9AB52950D3FD00FE6A68 /* 7.m4a */,
+				57EC9AAC2950D3FD00FE6A68 /* 8.m4a */,
+				57EC9AB12950D3FD00FE6A68 /* 9.m4a */,
+				57EC9AAF2950D3FD00FE6A68 /* 10.m4a */,
+				5780129D294B51770077DC93 /* Ain.mp3 */,
+				578012A2294B51770077DC93 /* Alif.mp3 */,
+				578012A4294B51770077DC93 /* Baa.mp3 */,
+				57801294294B51770077DC93 /* Daal.mp3 */,
+				578012AE294B51770077DC93 /* Dad.mp3 */,
+				578012AB294B51770077DC93 /* Dha.mp3 */,
+				5780129E294B51770077DC93 /* Dhal.mp3 */,
+				57801293294B51770077DC93 /* Fa.mp3 */,
+				578012A1294B51770077DC93 /* Ghain.mp3 */,
+				578012A7294B51770077DC93 /* Haa.mp3 */,
+				578012AA294B51770077DC93 /* Haå.mp3 */,
+				5780129F294B51770077DC93 /* Jiim.mp3 */,
+				5780129A294B51770077DC93 /* Kaf.mp3 */,
+				578012A3294B51770077DC93 /* Lam.mp3 */,
+				57801296294B51770077DC93 /* Mim.mp3 */,
+				578012AC294B51770077DC93 /* Nun.mp3 */,
+				57801297294B51770077DC93 /* Qaf.mp3 */,
+				57801295294B51770077DC93 /* Raa.mp3 */,
+				5780129C294B51770077DC93 /* Sad.mp3 */,
+				57801299294B51770077DC93 /* Shin.mp3 */,
+				578012A0294B51770077DC93 /* Sin.mp3 */,
+				578012AD294B51770077DC93 /* Ta.mp3 */,
+				578012A5294B51770077DC93 /* Taa.mp3 */,
+				57801298294B51770077DC93 /* Thaa.mp3 */,
+				578012A6294B51770077DC93 /* Waw.mp3 */,
+				578012A8294B51770077DC93 /* Xaa.mp3 */,
+				5780129B294B51770077DC93 /* Yaå.mp3 */,
+				578012A9294B51770077DC93 /* Za.mp3 */,
 			);
 			path = PrayTime;
 			sourceTree = "<group>";
@@ -79,6 +256,8 @@
 			isa = PBXGroup;
 			children = (
 				9387396D2920AEA400C3CC06 /* Main.storyboard */,
+				578265FF29531EB50077FC79 /* LanguagesTableViewController.swift */,
+				5754A599294C4ACD009A1164 /* QiblaDirectionViewController.swift */,
 				938739722920AEA800C3CC06 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -87,6 +266,18 @@
 		9387397D2920B9C500C3CC06 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				578266192953803B0077FC79 /* Settings.xcdatamodeld */,
+				5782661729537EBF0077FC79 /* SettingsModel.swift */,
+				5782660E29537D490077FC79 /* AboutUsViewController.swift */,
+				5782661029537D490077FC79 /* BckgViewController.swift */,
+				5782661129537D490077FC79 /* Constantsback.swift */,
+				5782660D29537D490077FC79 /* CustomSettingsTableViewCell.swift */,
+				5782660F29537D490077FC79 /* SettingsTableViewController.swift */,
+				57801288294B4FBD0077DC93 /* AlphabetViewController.swift */,
+				573DCDE329473278006D6306 /* DhikrModel.swift */,
+				573DCDE129471B50006D6306 /* DhikrCellsTableViewCell.swift */,
+				573DCDDD2946FE29006D6306 /* DhikrTableViewController.swift */,
+				573DCDE529478489006D6306 /* DetailsDhikrViewController.swift */,
 				9387396B2920AEA400C3CC06 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -95,6 +286,9 @@
 		9387397E2920B9D400C3CC06 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5780128E294B504A0077DC93 /* Alert */,
+				5780128A294B50430077DC93 /* OverLayerPopUp.swift */,
+				5780128B294B50430077DC93 /* OverLayerPopUp.xib */,
 				938739812920BB6800C3CC06 /* NetworkPrayTimeManager.swift */,
 				9387398D2920F8F200C3CC06 /* APIData.swift */,
 			);
@@ -104,9 +298,14 @@
 		938739832920BE9A00C3CC06 /* Support files */ = {
 			isa = PBXGroup;
 			children = (
+				5782661C295380770077FC79 /* Settings.xcdatamodeld */,
 				938739692920AEA400C3CC06 /* SceneDelegate.swift */,
 				938739672920AEA400C3CC06 /* AppDelegate.swift */,
 				938739842920BEAB00C3CC06 /* Constants.swift */,
+				57EC9AC92950F84000FE6A68 /* CustomTableViewCell.swift */,
+				57EC9AC82950F84000FE6A68 /* EventDescriptionViewController.swift */,
+				57EC9AC62950F84000FE6A68 /* MainTableViewController.swift */,
+				57EC9AC72950F84000FE6A68 /* Model.swift */,
 			);
 			path = "Support files";
 			sourceTree = "<group>";
@@ -161,6 +360,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 9387395B2920AEA400C3CC06;
 			productRefGroup = 938739652920AEA400C3CC06 /* Products */;
@@ -177,9 +377,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57EC9AB62950D3FD00FE6A68 /* 8.m4a in Resources */,
+				578012C8294B51770077DC93 /* Nun.mp3 in Resources */,
+				578012B2294B51770077DC93 /* Mim.mp3 in Resources */,
+				578012B1294B51770077DC93 /* Raa.mp3 in Resources */,
+				578012C3294B51770077DC93 /* Haa.mp3 in Resources */,
+				578012BE294B51770077DC93 /* Alif.mp3 in Resources */,
+				57EC9AC52950D78C00FE6A68 /* 1.m4a in Resources */,
+				578012B7294B51770077DC93 /* Yaå.mp3 in Resources */,
+				57EC9AB82950D3FD00FE6A68 /* 6.m4a in Resources */,
+				57EC9ABD2950D3FD00FE6A68 /* 3.m4a in Resources */,
+				578012B5294B51770077DC93 /* Shin.mp3 in Resources */,
+				57EC9ABE2950D3FD00FE6A68 /* 5.m4a in Resources */,
+				578012C6294B51770077DC93 /* Haå.mp3 in Resources */,
+				578266092953262A0077FC79 /* Localizable.strings in Resources */,
+				578012B6294B51770077DC93 /* Kaf.mp3 in Resources */,
+				578012B4294B51770077DC93 /* Thaa.mp3 in Resources */,
+				578012BD294B51770077DC93 /* Ghain.mp3 in Resources */,
+				578012B9294B51770077DC93 /* Ain.mp3 in Resources */,
+				578012B0294B51770077DC93 /* Daal.mp3 in Resources */,
+				578012BB294B51770077DC93 /* Jiim.mp3 in Resources */,
+				57606F12295248A500016838 /* azan.mp3 in Resources */,
+				578012CA294B51770077DC93 /* Dad.mp3 in Resources */,
+				57EC9ABB2950D3FD00FE6A68 /* 9.m4a in Resources */,
+				578012BC294B51770077DC93 /* Sin.mp3 in Resources */,
+				578012C2294B51770077DC93 /* Waw.mp3 in Resources */,
+				57EC9ABF2950D3FD00FE6A68 /* 7.m4a in Resources */,
+				57EC9AB92950D3FD00FE6A68 /* 10.m4a in Resources */,
+				57EC9AC42950D78C00FE6A68 /* 2.m4a in Resources */,
+				578012BF294B51770077DC93 /* Lam.mp3 in Resources */,
+				57EC9AB72950D3FD00FE6A68 /* 4.m4a in Resources */,
+				578012B8294B51770077DC93 /* Sad.mp3 in Resources */,
+				578012B3294B51770077DC93 /* Qaf.mp3 in Resources */,
+				578012C9294B51770077DC93 /* Ta.mp3 in Resources */,
+				578012AF294B51770077DC93 /* Fa.mp3 in Resources */,
+				5780128D294B50430077DC93 /* OverLayerPopUp.xib in Resources */,
 				938739742920AEA800C3CC06 /* LaunchScreen.storyboard in Resources */,
 				938739712920AEA800C3CC06 /* Assets.xcassets in Resources */,
+				578012C5294B51770077DC93 /* Za.mp3 in Resources */,
+				578012C0294B51770077DC93 /* Baa.mp3 in Resources */,
 				9387396F2920AEA400C3CC06 /* Main.storyboard in Resources */,
+				578012C7294B51770077DC93 /* Dha.mp3 in Resources */,
+				578012C4294B51770077DC93 /* Xaa.mp3 in Resources */,
+				578012BA294B51770077DC93 /* Dhal.mp3 in Resources */,
+				578012C1294B51770077DC93 /* Taa.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,12 +431,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5782661629537D490077FC79 /* Constantsback.swift in Sources */,
+				57EC9ACC2950F84000FE6A68 /* EventDescriptionViewController.swift in Sources */,
+				573DCDE429473278006D6306 /* DhikrModel.swift in Sources */,
 				938739852920BEAB00C3CC06 /* Constants.swift in Sources */,
 				9387396C2920AEA400C3CC06 /* ViewController.swift in Sources */,
+				57EC9ACD2950F84000FE6A68 /* CustomTableViewCell.swift in Sources */,
+				57EC9ACA2950F84000FE6A68 /* MainTableViewController.swift in Sources */,
+				5782660029531EB50077FC79 /* LanguagesTableViewController.swift in Sources */,
+				573DCDDE2946FE29006D6306 /* DhikrTableViewController.swift in Sources */,
+				5782661529537D490077FC79 /* BckgViewController.swift in Sources */,
 				9387398A2920C6EB00C3CC06 /* ExtensionViewController.swift in Sources */,
+				5782661829537EBF0077FC79 /* SettingsModel.swift in Sources */,
+				5782661229537D490077FC79 /* CustomSettingsTableViewCell.swift in Sources */,
 				9387398E2920F8F200C3CC06 /* APIData.swift in Sources */,
+				5782661B2953803B0077FC79 /* Settings.xcdatamodeld in Sources */,
 				938739682920AEA400C3CC06 /* AppDelegate.swift in Sources */,
+				57801289294B4FBD0077DC93 /* AlphabetViewController.swift in Sources */,
+				57EC9ACB2950F84000FE6A68 /* Model.swift in Sources */,
+				573DCDE629478489006D6306 /* DetailsDhikrViewController.swift in Sources */,
 				9387396A2920AEA400C3CC06 /* SceneDelegate.swift in Sources */,
+				5754A59A294C4ACD009A1164 /* QiblaDirectionViewController.swift in Sources */,
+				573DCDE229471B50006D6306 /* DhikrCellsTableViewCell.swift in Sources */,
+				5780128C294B50430077DC93 /* OverLayerPopUp.swift in Sources */,
+				5782661329537D490077FC79 /* AboutUsViewController.swift in Sources */,
+				5782661429537D490077FC79 /* SettingsTableViewController.swift in Sources */,
 				938739822920BB6800C3CC06 /* NetworkPrayTimeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,10 +463,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		5782660B2953262A0077FC79 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5782660A2953262A0077FC79 /* en */,
+				5782660C295326360077FC79 /* ru */,
+			);
+			name = Localizable.strings;
+			path = PrayTime/Views;
+			sourceTree = "<group>";
+		};
 		9387396D2920AEA400C3CC06 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9387396E2920AEA400C3CC06 /* Base */,
+				57826601295322F40077FC79 /* ru */,
+				578266042953238E0077FC79 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -215,6 +487,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				938739732920AEA800C3CC06 /* Base */,
+				57826602295322F50077FC79 /* ru */,
+				57826606295323B20077FC79 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -226,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -286,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -331,6 +607,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -422,6 +699,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		578266192953803B0077FC79 /* Settings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5782661A2953803B0077FC79 /* Settings.xcdatamodel */,
+			);
+			currentVersion = 5782661A2953803B0077FC79 /* Settings.xcdatamodel */;
+			name = Settings.xcdatamodeld;
+			path = "../../../../../Downloads/Settings 4/Settings/Settings.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		5782661C295380770077FC79 /* Settings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5782661D295380770077FC79 /* Settings.xcdatamodel */,
+			);
+			currentVersion = 5782661D295380770077FC79 /* Settings.xcdatamodel */;
+			path = Settings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9387395C2920AEA400C3CC06 /* Project object */;
 }

@@ -1,0 +1,411 @@
+
+/* Class = "UILabel"; text = "333"; ObjectID = "1Aw-Up-0rp"; */
+"1Aw-Up-0rp.text" = "333";
+
+/* Class = "UILabel"; text = "Laylat al-Qadr is the holiest night of the year for Muslims, who believe it is when the first verses of the Quran were revealed to the prophet Mohammad ﷺ  \n\nLaylat al-Qadr is the holiest night of the year for Muslims, who believe it is when the first verses of the Quran were revealed to the prophet Mohammed. \n\nIslamic scholars differ on the exact meaning of Laylat al-Qadr, as the word can be interpreted in different ways. Some scholars believe that Qadr means \"destiny\" or \"decree\", as it is the night in which every person’s destiny was determined. "; ObjectID = "23X-AU-zxc"; */
+"23X-AU-zxc.text" = "Laylat al-Qadr is the holiest night of the year for Muslims, who believe it is when the first verses of the Quran were revealed to the prophet Mohammad ﷺ  \n\nLaylat al-Qadr is the holiest night of the year for Muslims, who believe it is when the first verses of the Quran were revealed to the prophet Mohammed. \n\nIslamic scholars differ on the exact meaning of Laylat al-Qadr, as the word can be interpreted in different ways. Some scholars believe that Qadr means \"destiny\" or \"decree\", as it is the night in which every person’s destiny was determined. ";
+
+/* Class = "UILabel"; text = "Alhamdulillah"; ObjectID = "2Df-dD-XuK"; */
+"2Df-dD-XuK.text" = "Alhamdulillah";
+
+/* Class = "UIButton"; configuration.subtitle = "Taa"; ObjectID = "49f-R5-0J8"; */
+"49f-R5-0J8.configuration.subtitle" = "Taa";
+
+/* Class = "UIButton"; configuration.title = "ت"; ObjectID = "49f-R5-0J8"; */
+"49f-R5-0J8.configuration.title" = "ت";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "49f-R5-0J8"; */
+"49f-R5-0J8.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Laylatul-Qadr"; ObjectID = "4K3-To-zrq"; */
+"4K3-To-zrq.title" = "Laylatul-Qadr";
+
+/* Class = "UILabel"; text = "...................."; ObjectID = "5L5-Wz-Zd5"; */
+"5L5-Wz-Zd5.text" = "....................";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5Uz-g8-I5D"; */
+"5Uz-g8-I5D.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6Aa-Yw-rth"; */
+"6Aa-Yw-rth.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Qaf"; ObjectID = "87d-Wz-1FJ"; */
+"87d-Wz-1FJ.configuration.subtitle" = "Qaf";
+
+/* Class = "UIButton"; configuration.title = "ق"; ObjectID = "87d-Wz-1FJ"; */
+"87d-Wz-1FJ.configuration.title" = "ق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "87d-Wz-1FJ"; */
+"87d-Wz-1FJ.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Sad"; ObjectID = "8SF-cG-AkU"; */
+"8SF-cG-AkU.configuration.subtitle" = "Sad";
+
+/* Class = "UIButton"; configuration.title = "ص"; ObjectID = "8SF-cG-AkU"; */
+"8SF-cG-AkU.configuration.title" = "ص";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8SF-cG-AkU"; */
+"8SF-cG-AkU.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Fa"; ObjectID = "8ka-6f-4UV"; */
+"8ka-6f-4UV.configuration.subtitle" = "Fa";
+
+/* Class = "UIButton"; configuration.title = "ف"; ObjectID = "8ka-6f-4UV"; */
+"8ka-6f-4UV.configuration.title" = "ف";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8ka-6f-4UV"; */
+"8ka-6f-4UV.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Xaa"; ObjectID = "8q3-qU-h09"; */
+"8q3-qU-h09.configuration.subtitle" = "Xaa";
+
+/* Class = "UIButton"; configuration.title = "خ"; ObjectID = "8q3-qU-h09"; */
+"8q3-qU-h09.configuration.title" = "خ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8q3-qU-h09"; */
+"8q3-qU-h09.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Mim"; ObjectID = "BJq-qa-ckb"; */
+"BJq-qa-ckb.configuration.subtitle" = "Mim";
+
+/* Class = "UIButton"; configuration.title = "م"; ObjectID = "BJq-qa-ckb"; */
+"BJq-qa-ckb.configuration.title" = "م";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BJq-qa-ckb"; */
+"BJq-qa-ckb.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Kaf"; ObjectID = "Bpo-gP-qiO"; */
+"Bpo-gP-qiO.configuration.subtitle" = "Kaf";
+
+/* Class = "UIButton"; configuration.title = "ك"; ObjectID = "Bpo-gP-qiO"; */
+"Bpo-gP-qiO.configuration.title" = "ك";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Bpo-gP-qiO"; */
+"Bpo-gP-qiO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل قدير"; ObjectID = "DVg-hx-2Vn"; */
+"DVg-hx-2Vn.text" = "لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل قدير";
+
+/* Class = "UIButton"; configuration.subtitle = "Dhal"; ObjectID = "Fmi-yT-PYp"; */
+"Fmi-yT-PYp.configuration.subtitle" = "Dhal";
+
+/* Class = "UIButton"; configuration.title = "ذ"; ObjectID = "Fmi-yT-PYp"; */
+"Fmi-yT-PYp.configuration.title" = "ذ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Fmi-yT-PYp"; */
+"Fmi-yT-PYp.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Direction"; ObjectID = "FqM-sf-3Ke"; */
+"FqM-sf-3Ke.text" = "Direction";
+
+/* Class = "UIButton"; configuration.subtitle = "Ain"; ObjectID = "GAj-cS-6vu"; */
+"GAj-cS-6vu.configuration.subtitle" = "Ain";
+
+/* Class = "UIButton"; configuration.title = "ع"; ObjectID = "GAj-cS-6vu"; */
+"GAj-cS-6vu.configuration.title" = "ع";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GAj-cS-6vu"; */
+"GAj-cS-6vu.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Nun"; ObjectID = "HIJ-QC-acK"; */
+"HIJ-QC-acK.configuration.subtitle" = "Nun";
+
+/* Class = "UIButton"; configuration.title = "ن"; ObjectID = "HIJ-QC-acK"; */
+"HIJ-QC-acK.configuration.title" = "ن";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HIJ-QC-acK"; */
+"HIJ-QC-acK.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HIb-z6-00e"; */
+"HIb-z6-00e.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Jiim"; ObjectID = "Hq6-MD-iAj"; */
+"Hq6-MD-iAj.configuration.subtitle" = "Jiim";
+
+/* Class = "UIButton"; configuration.title = "ج"; ObjectID = "Hq6-MD-iAj"; */
+"Hq6-MD-iAj.configuration.title" = "ج";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Hq6-MD-iAj"; */
+"Hq6-MD-iAj.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "N → 246.0"; ObjectID = "Ku6-i6-BeL"; */
+"Ku6-i6-BeL.text" = "N → 246.0";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LH8-jD-E5A"; */
+"LH8-jD-E5A.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "M12-47-Auf"; */
+"M12-47-Auf.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Alif"; ObjectID = "MOC-BE-Lfv"; */
+"MOC-BE-Lfv.configuration.subtitle" = "Alif";
+
+/* Class = "UIButton"; configuration.title = "ا"; ObjectID = "MOC-BE-Lfv"; */
+"MOC-BE-Lfv.configuration.title" = "ا";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MOC-BE-Lfv"; */
+"MOC-BE-Lfv.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NQF-fH-Sm1"; */
+"NQF-fH-Sm1.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Nll-jP-Zw5"; */
+"Nll-jP-Zw5.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Daal"; ObjectID = "ODH-mr-6cz"; */
+"ODH-mr-6cz.configuration.subtitle" = "Daal";
+
+/* Class = "UIButton"; configuration.title = "د"; ObjectID = "ODH-mr-6cz"; */
+"ODH-mr-6cz.configuration.title" = "د";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ODH-mr-6cz"; */
+"ODH-mr-6cz.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "LIVE"; ObjectID = "RdV-Dj-qHz"; */
+"RdV-Dj-qHz.configuration.title" = "LIVE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RdV-Dj-qHz"; */
+"RdV-Dj-qHz.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Fajr"; ObjectID = "RjZ-dt-22m"; */
+"RjZ-dt-22m.text" = "Fajr";
+
+/* Class = "UILabel"; text = "Maghrib"; ObjectID = "TQJ-Bv-NIR"; */
+"TQJ-Bv-NIR.text" = "Maghrib";
+
+/* Class = "UILabel"; text = "17:36"; ObjectID = "TZ0-eP-1FV"; */
+"TZ0-eP-1FV.text" = "17:36";
+
+/* Class = "UIButton"; configuration.subtitle = "Dad"; ObjectID = "ThI-u4-gsQ"; */
+"ThI-u4-gsQ.configuration.subtitle" = "Dad";
+
+/* Class = "UIButton"; configuration.title = "ض"; ObjectID = "ThI-u4-gsQ"; */
+"ThI-u4-gsQ.configuration.title" = "ض";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ThI-u4-gsQ"; */
+"ThI-u4-gsQ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "U1p-C2-KWf"; */
+"U1p-C2-KWf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VTO-Dr-Ir5"; */
+"VTO-Dr-Ir5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "La ilaha illallahu wahdahu la sharika lahu lahul mulku wa lahul hamdu wa huwa ‘ala kulli shay in qadir"; ObjectID = "Vag-T1-W4B"; */
+"Vag-T1-W4B.text" = "La ilaha illallahu wahdahu la sharika lahu lahul mulku wa lahul hamdu wa huwa ‘ala kulli shay in qadir";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Vqx-H8-QPh"; */
+"Vqx-H8-QPh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "الأبجدية العربية"; ObjectID = "X49-ce-67N"; */
+"X49-ce-67N.text" = "الأبجدية العربية";
+
+/* Class = "UILabel"; text = "Dhuhr"; ObjectID = "Xk2-uJ-jtv"; */
+"Xk2-uJ-jtv.text" = "Dhuhr";
+
+/* Class = "UILabel"; text = "Weekday"; ObjectID = "ZqD-5C-ldW"; */
+"ZqD-5C-ldW.text" = "Weekday";
+
+/* Class = "UILabel"; text = "Current date"; ObjectID = "aLt-Xs-TjV"; */
+"aLt-Xs-TjV.text" = "Current date";
+
+/* Class = "UILabel"; text = "Laylatul-Qadr (The Night of Destiny or Power)"; ObjectID = "bjs-1b-m4h"; */
+"bjs-1b-m4h.text" = "Laylatul-Qadr (The Night of Destiny or Power)";
+
+/* Class = "UIButton"; configuration.subtitle = "Za"; ObjectID = "buW-kg-awI"; */
+"buW-kg-awI.configuration.subtitle" = "Za";
+
+/* Class = "UIButton"; configuration.title = "ز"; ObjectID = "buW-kg-awI"; */
+"buW-kg-awI.configuration.title" = "ز";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "buW-kg-awI"; */
+"buW-kg-awI.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "1 Ramadan, 1944"; ObjectID = "bz5-tA-7Ov"; */
+"bz5-tA-7Ov.text" = "1 Ramadan, 1944";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cDh-bx-6ob"; */
+"cDh-bx-6ob.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dJl-gE-b0J"; */
+"dJl-gE-b0J.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "...................."; ObjectID = "ec1-b9-nCd"; */
+"ec1-b9-nCd.text" = "....................";
+
+/* Class = "UILabel"; text = "Alhamdulillah"; ObjectID = "ef4-MA-UIs"; */
+"ef4-MA-UIs.text" = "Alhamdulillah";
+
+/* Class = "UIButton"; configuration.subtitle = "Haa"; ObjectID = "eg5-8D-w40"; */
+"eg5-8D-w40.configuration.subtitle" = "Haa";
+
+/* Class = "UIButton"; configuration.title = "ح"; ObjectID = "eg5-8D-w40"; */
+"eg5-8D-w40.configuration.title" = "ح";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eg5-8D-w40"; */
+"eg5-8D-w40.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Shin"; ObjectID = "ekH-ww-xeL"; */
+"ekH-ww-xeL.configuration.subtitle" = "Shin";
+
+/* Class = "UIButton"; configuration.title = "ش"; ObjectID = "ekH-ww-xeL"; */
+"ekH-ww-xeL.configuration.title" = "ش";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ekH-ww-xeL"; */
+"ekH-ww-xeL.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Ghain"; ObjectID = "esK-Lb-s1f"; */
+"esK-Lb-s1f.configuration.subtitle" = "Ghain";
+
+/* Class = "UIButton"; configuration.title = "غ"; ObjectID = "esK-Lb-s1f"; */
+"esK-Lb-s1f.configuration.title" = "غ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "esK-Lb-s1f"; */
+"esK-Lb-s1f.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Thaa"; ObjectID = "esM-lh-cHJ"; */
+"esM-lh-cHJ.configuration.subtitle" = "Thaa";
+
+/* Class = "UIButton"; configuration.title = "ث"; ObjectID = "esM-lh-cHJ"; */
+"esM-lh-cHJ.configuration.title" = "ث";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "esM-lh-cHJ"; */
+"esM-lh-cHJ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "f0g-s7-5lu"; */
+"f0g-s7-5lu.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Ramadan (The month of Fasting)"; ObjectID = "f23-0q-FeM"; */
+"f23-0q-FeM.text" = "Ramadan (The month of Fasting)";
+
+/* Class = "UIButton"; configuration.subtitle = "Yaå"; ObjectID = "gf1-qP-B7i"; */
+"gf1-qP-B7i.configuration.subtitle" = "Yaå";
+
+/* Class = "UIButton"; configuration.title = "ي"; ObjectID = "gf1-qP-B7i"; */
+"gf1-qP-B7i.configuration.title" = "ي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gf1-qP-B7i"; */
+"gf1-qP-B7i.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Isha"; ObjectID = "hTK-BH-ndy"; */
+"hTK-BH-ndy.text" = "Isha";
+
+/* Class = "UILabel"; text = "Arabic alphabet"; ObjectID = "hpk-N0-PaN"; */
+"hpk-N0-PaN.text" = "Arabic alphabet";
+
+/* Class = "UILabel"; text = "...................."; ObjectID = "iox-Zr-Sth"; */
+"iox-Zr-Sth.text" = "....................";
+
+/* Class = "UIButton"; configuration.subtitle = "Lam"; ObjectID = "jZj-LZ-pI2"; */
+"jZj-LZ-pI2.configuration.subtitle" = "Lam";
+
+/* Class = "UIButton"; configuration.title = "ل"; ObjectID = "jZj-LZ-pI2"; */
+"jZj-LZ-pI2.configuration.title" = "ل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jZj-LZ-pI2"; */
+"jZj-LZ-pI2.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kfg-fd-EIC"; */
+"kfg-fd-EIC.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Waw"; ObjectID = "l4d-La-esE"; */
+"l4d-La-esE.configuration.subtitle" = "Waw";
+
+/* Class = "UIButton"; configuration.title = "و"; ObjectID = "l4d-La-esE"; */
+"l4d-La-esE.configuration.title" = "و";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "l4d-La-esE"; */
+"l4d-La-esE.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "lE6-Nc-Xdd"; */
+"lE6-Nc-Xdd.text" = "0";
+
+/* Class = "UIButton"; configuration.subtitle = "Haå"; ObjectID = "nVI-84-Ymk"; */
+"nVI-84-Ymk.configuration.subtitle" = "Haå";
+
+/* Class = "UIButton"; configuration.title = "هـ"; ObjectID = "nVI-84-Ymk"; */
+"nVI-84-Ymk.configuration.title" = "هـ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nVI-84-Ymk"; */
+"nVI-84-Ymk.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nct-H9-IID"; */
+"nct-H9-IID.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Sin"; ObjectID = "okT-Bj-u0E"; */
+"okT-Bj-u0E.configuration.subtitle" = "Sin";
+
+/* Class = "UIButton"; configuration.title = "س"; ObjectID = "okT-Bj-u0E"; */
+"okT-Bj-u0E.configuration.title" = "س";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "okT-Bj-u0E"; */
+"okT-Bj-u0E.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "TOTAL"; ObjectID = "pJl-7W-oqD"; */
+"pJl-7W-oqD.text" = "TOTAL";
+
+/* Class = "UIButton"; configuration.subtitle = "Ta"; ObjectID = "pWX-DQ-NgN"; */
+"pWX-DQ-NgN.configuration.subtitle" = "Ta";
+
+/* Class = "UIButton"; configuration.title = "ط"; ObjectID = "pWX-DQ-NgN"; */
+"pWX-DQ-NgN.configuration.title" = "ط";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pWX-DQ-NgN"; */
+"pWX-DQ-NgN.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Sunrise"; ObjectID = "r43-0c-It3"; */
+"r43-0c-It3.text" = "Sunrise";
+
+/* Class = "UILabel"; text = "Kaskelen"; ObjectID = "t4U-gt-fIU"; */
+"t4U-gt-fIU.text" = "Kaskelen";
+
+/* Class = "UIButton"; configuration.subtitle = "Raa"; ObjectID = "tjm-5p-hFv"; */
+"tjm-5p-hFv.configuration.subtitle" = "Raa";
+
+/* Class = "UIButton"; configuration.title = "ر"; ObjectID = "tjm-5p-hFv"; */
+"tjm-5p-hFv.configuration.title" = "ر";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tjm-5p-hFv"; */
+"tjm-5p-hFv.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "SEPTEMBER"; ObjectID = "uF3-Pu-Bim"; */
+"uF3-Pu-Bim.text" = "SEPTEMBER";
+
+/* Class = "UIButton"; configuration.subtitle = "Dha"; ObjectID = "uST-YI-DZq"; */
+"uST-YI-DZq.configuration.subtitle" = "Dha";
+
+/* Class = "UIButton"; configuration.title = "ظ"; ObjectID = "uST-YI-DZq"; */
+"uST-YI-DZq.configuration.title" = "ظ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uST-YI-DZq"; */
+"uST-YI-DZq.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "UPCOMING EVENTS"; ObjectID = "uVE-ga-hzb"; */
+"uVE-ga-hzb.title" = "UPCOMING EVENTS";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wGi-VR-iNr"; */
+"wGi-VR-iNr.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Maghrib"; ObjectID = "x89-Hb-lHq"; */
+"x89-Hb-lHq.text" = "Maghrib";
+
+/* Class = "UILabel"; text = "................."; ObjectID = "ymZ-jv-Xic"; */
+"ymZ-jv-Xic.text" = ".................";
+
+/* Class = "UILabel"; text = "Asr"; ObjectID = "yzj-jC-Sw4"; */
+"yzj-jC-Sw4.text" = "Asr";
+
+/* Class = "UILabel"; text = "...................."; ObjectID = "z2L-42-fqP"; */
+"z2L-42-fqP.text" = "....................";
+
+/* Class = "UILabel"; text = "...................."; ObjectID = "zbC-C0-0u7"; */
+"zbC-C0-0u7.text" = "....................";
+
+/* Class = "UIButton"; configuration.subtitle = "Baa"; ObjectID = "zmL-C1-Gdm"; */
+"zmL-C1-Gdm.configuration.subtitle" = "Baa";
+
+/* Class = "UIButton"; configuration.title = "ب"; ObjectID = "zmL-C1-Gdm"; */
+"zmL-C1-Gdm.configuration.title" = "ب";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zmL-C1-Gdm"; */
+"zmL-C1-Gdm.normalTitle" = "Button";
